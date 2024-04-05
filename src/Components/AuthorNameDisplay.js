@@ -30,7 +30,7 @@ const AuthorNameDisplay = ({ authorNames, removeName }) => {
                     <TableBody>
                         {authorNames.map((name, index) => (
                             <TableRow key={index}>
-                                <TableCell style={{ width: '30%' }}>{index}</TableCell>
+                                <TableCell style={{ width: '30%' }}>{index + 1}</TableCell>
                                 <TableCell>
                                     <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
                                         <span>{name}</span>

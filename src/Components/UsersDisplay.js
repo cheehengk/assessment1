@@ -1,5 +1,5 @@
 import React from 'react';
-import { Table, TableHead, TableBody, TableCell, TableRow, Typography, Button } from '@mui/material';
+import { Table, TableHead, TableBody, TableCell, TableRow } from '@mui/material';
 
 
 const UsersDisplay = ({ users }) => {
